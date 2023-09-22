@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(./img/plant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 90px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px
+}
+
+.logo img {
+    filter: invert(100%);
+}
+
+.nav {
+    padding-left: 40px;
+    padding-right: 10px;
+
+}
+
+.nav-items {
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    font-size: 20px;
+    margin-right: 30px;
+    width: 25px;
+}
+
+.img1 {
+    filter: invert(100%);
+
+}
+
+.img1:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.img2 {
+    background-color: greenyellow;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin-left: 20px;
+    width: 25px;
+
+}
+
+.img2:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.container {
+    color: white;
+    padding-top: 30px;
+    padding-left: 90px;
+    font-size: 65px;
+}
+
+.container1 {
+    padding-top: 40px;
+    padding-left: 90px;
+    width: 700px;
+    color: white;
+    opacity: 0.9;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.container2 {
+    padding-top: 50px;
+    padding-left: 90px;
+
+}
+
+
+
+.btn1 {
+    background-color: #a4f5a9;
+    color: #002107;
+    padding: 12px 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.btn2 {
+    color: green;
+    padding: 12px 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    background-color: #a4f5a9;
+    opacity: 0.4;
+    font-weight: bolder;
+    border: none;
+
+}
+
+.btn1:hover {
+    background-color: #9ecda2;
+    color: green;
+    transition: all 0.5s;
+}
+
+.btn2:hover {
+    opacity: 0.9;
+    transition: all 0.5s;
+
+}
+
+.container3 {
+    padding-top: 50px;
+    padding-left: 90px;
+    color: white;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.container4 {
+    padding-top: 50px;
+    text-align: right;
+    filter: invert(100%);
+    padding-right: 30px;
+}
+
+.container4 img {
+    margin-right: 30px;
+}
+
+.container4 img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+
+}
